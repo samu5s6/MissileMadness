@@ -6,7 +6,7 @@ using UnityEngine;
 public class BlendShape : MonoBehaviour
 {
     SkinnedMeshRenderer skinnedMeshRenderer;
-    Mesh skinnedMesh;
+
     public float blendOne = 50f;
     [SerializeField] float blendSpeed = 1f;
     public float blendShapeOld;
@@ -20,10 +20,9 @@ public class BlendShape : MonoBehaviour
     void Start()
     {
         skinnedMeshRenderer = GetComponent<SkinnedMeshRenderer>();
-        skinnedMesh = GetComponent<SkinnedMeshRenderer>().sharedMesh;
         
         blendShapeOld = blendOne;
-        Mathf.Clamp(blendShapeOld, 0f, 100f);
+        //Mathf.Clamp(blendShapeOld, 0f, 100f);
     }
     private void Update()
     {
@@ -59,7 +58,7 @@ public class BlendShape : MonoBehaviour
     public void LevelUp()
     {
         blendShapeOld = blendOne;
-        blendOne += 12.5f;
+        blendOne += 12.5f; //blendOne = 62.5f
         blendSpeed = Mathf.Abs(blendSpeed);
         ClampValues();
         isTriggering = true;

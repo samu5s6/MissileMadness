@@ -6,7 +6,7 @@ public class CutsceneToGame : MonoBehaviour
 {
     public GameObject missile;
     public GameObject cam;
-   public GameObject Flight;
+    public GameObject Flight;
     public GameObject flightcam;
     public GameObject miss;
     // Start is called before the first frame update
