@@ -15,11 +15,11 @@ D:/Unity/MissileMadness
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62276
+55944
 Successfully changed project path to: D:/Unity/MissileMadness
 D:/Unity/MissileMadness
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.98 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -36,147 +36,1804 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000831 seconds.
+Registered in 0.000651 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.79 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.348 seconds
+- Completed reload, in  1.218 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003493 seconds.
+Registered in 0.002331 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.21 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.883 seconds
+- Completed reload, in  0.875 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.0 MB.
-System memory in use after: 144.8 MB.
+Unloading 3277 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.5 MB.
+System memory in use after: 151.3 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3565.
-Total: 2.401900 ms (FindLiveObjects: 0.257500 ms CreateObjectMapping: 0.125200 ms MarkObjects: 1.832900 ms  DeleteObjects: 0.185400 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3701.
+Total: 7.368100 ms (FindLiveObjects: 0.653400 ms CreateObjectMapping: 0.447900 ms MarkObjects: 5.664900 ms  DeleteObjects: 0.599700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/EnemyGlueStick.cs
-  artifactKey: Guid(bd313cb2429ed824c9ed569b83410270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyGlueStick.cs using Guid(bd313cb2429ed824c9ed569b83410270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47618077fc416854ca34dc21d2c39835') in 0.015830 seconds
-  Import took 0.019744 seconds .
+  path: Assets/Materials & Shaders/FlatShader.shadergraph
+  artifactKey: Guid(bc014e9eedaa48842b4d2d0060a51324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Shaders/FlatShader.shadergraph using Guid(bc014e9eedaa48842b4d2d0060a51324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd864ebe15b1612574ac78286b55483f7') in 0.052765 seconds
+  Import took 0.063673 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.511276 seconds.
-  path: Assets/Scripts/UpdateMeshCollider.cs
-  artifactKey: Guid(68b5f865b00ad604ca0b850214ca886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UpdateMeshCollider.cs using Guid(68b5f865b00ad604ca0b850214ca886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81c682986f859d97074bd98edf4719d') in 0.004842 seconds
-  Import took 0.009228 seconds .
+  Time since last request: 0.008786 seconds.
+  path: Assets/MissileGame/Assets/PowerDown/PowerUp_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(6aeb252ba35019e4f8a1ac08afe2681d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/PowerDown/PowerUp_lambert1_AlbedoTransparency.png using Guid(6aeb252ba35019e4f8a1ac08afe2681d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c8c57240ee24cb7eb43a9c985f3a5f') in 0.089258 seconds
+  Import took 0.105602 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001378 seconds.
-  path: Assets/Scripts/UpdateMeshCollider.cs
-  artifactKey: Guid(68b5f865b00ad604ca0b850214ca886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UpdateMeshCollider.cs using Guid(68b5f865b00ad604ca0b850214ca886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81c682986f859d97074bd98edf4719d') in 0.001507 seconds
-  Import took 0.006082 seconds .
+  Time since last request: 0.011123 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Vase.mat
+  artifactKey: Guid(58abd1fcfb9e84376a6e41a4ae821648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Vase.mat using Guid(58abd1fcfb9e84376a6e41a4ae821648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40d93818a1600442f634cd3fae61125') in 0.137647 seconds
+  Import took 0.143316 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.737405 seconds.
-  path: Assets/Scripts/MissileMoveMod.cs
-  artifactKey: Guid(f13887f46b27c1349b9ca14fa17ef21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MissileMoveMod.cs using Guid(f13887f46b27c1349b9ca14fa17ef21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249b23c7af7940247b5aad8e191fac2c') in 0.004315 seconds
-  Import took 0.008576 seconds .
+  Time since last request: 0.048876 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/roc/b4.png
+  artifactKey: Guid(14f8083a7725ce548b7b9ab268cb4cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/roc/b4.png using Guid(14f8083a7725ce548b7b9ab268cb4cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669ab8941d948b48dd173733f217e43e') in 0.017407 seconds
+  Import took 0.021996 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001410 seconds.
-  path: Assets/Scripts/MissileMoveMod.cs
-  artifactKey: Guid(f13887f46b27c1349b9ca14fa17ef21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MissileMoveMod.cs using Guid(f13887f46b27c1349b9ca14fa17ef21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249b23c7af7940247b5aad8e191fac2c') in 0.001449 seconds
-  Import took 0.005597 seconds .
+  Time since last request: 0.125086 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/rocket sliders.png
+  artifactKey: Guid(8ec4563e558236143b28d4edd2896bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/rocket sliders.png using Guid(8ec4563e558236143b28d4edd2896bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb20557990043e00ba21a5091ec2a2bd') in 0.030925 seconds
+  Import took 0.037102 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002525 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.783 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2999 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.6 MB.
-System memory in use after: 132.4 MB.
+Received Import Request.
+  Time since last request: 0.005432 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Vase.mat
+  artifactKey: Guid(8135cf567f3a947aaa78e561607fa0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Vase.mat using Guid(8135cf567f3a947aaa78e561607fa0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3971e6712e04b6b992a80efa072daa5a') in 0.008660 seconds
+  Import took 0.018444 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3568.
-Total: 2.676200 ms (FindLiveObjects: 0.276900 ms CreateObjectMapping: 0.131200 ms MarkObjects: 2.095700 ms  DeleteObjects: 0.171300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002015 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.795 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2999 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.5 MB.
+Received Import Request.
+  Time since last request: 0.081124 seconds.
+  path: Assets/MissileGame/Anim/tex/Jet_lambert3SG_MetallicSmoothness.png
+  artifactKey: Guid(926ad18e501502a4995996d291ef33b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Anim/tex/Jet_lambert3SG_MetallicSmoothness.png using Guid(926ad18e501502a4995996d291ef33b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb6e4831863afe5adf4e0390845003d') in 0.059232 seconds
+  Import took 0.063515 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3571.
-Total: 8.012000 ms (FindLiveObjects: 0.843000 ms CreateObjectMapping: 0.562500 ms MarkObjects: 6.129600 ms  DeleteObjects: 0.472200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002160 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.792 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2999 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.5 MB.
+Received Import Request.
+  Time since last request: 0.051347 seconds.
+  path: Assets/MissileGame/Assets/powerup/PowerUp_lambert1_MetallicSmoothness 1.png
+  artifactKey: Guid(23f286cfb8bf20743b23341f9da9f298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/powerup/PowerUp_lambert1_MetallicSmoothness 1.png using Guid(23f286cfb8bf20743b23341f9da9f298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833ba58830a67fad51cb06dbdc0278a9') in 0.057230 seconds
+  Import took 0.061486 seconds .
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3574.
-Total: 8.671500 ms (FindLiveObjects: 0.841900 ms CreateObjectMapping: 0.578300 ms MarkObjects: 6.791300 ms  DeleteObjects: 0.457400 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.024644 seconds.
+  path: Assets/Scripts/Camchangetotank.cs
+  artifactKey: Guid(7e4db87e97e541a4289dc8125a33bb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camchangetotank.cs using Guid(7e4db87e97e541a4289dc8125a33bb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5875a89955821c3c77089d60fc429e2e') in 0.005113 seconds
+  Import took 0.009284 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 0.011801 seconds.
+  path: Assets/Scripts/StickBullet.cs
+  artifactKey: Guid(38399268ee3d8ca47a6ceabd8b8a2fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StickBullet.cs using Guid(38399268ee3d8ca47a6ceabd8b8a2fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0b3e8d08714648c3b40a38e0896955') in 0.004365 seconds
+  Import took 0.008581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156208 seconds.
+  path: Assets/MissileGame/Assets/Tank/TankV2.0_Rest_MetallicSmoothness.png
+  artifactKey: Guid(fed13e182b9883744b4d318a5d0ab29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Tank/TankV2.0_Rest_MetallicSmoothness.png using Guid(fed13e182b9883744b4d318a5d0ab29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de6c454a2a418cd8ce6b356c78b1c90') in 0.048685 seconds
+  Import took 0.053052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064799 seconds.
+  path: Assets/MissileGame/TANKS/Damaged1/damagedtank_1_Body1_AlbedoTransparency.png
+  artifactKey: Guid(fec1f393473a4d942aada41ca556572d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/TANKS/Damaged1/damagedtank_1_Body1_AlbedoTransparency.png using Guid(fec1f393473a4d942aada41ca556572d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f0f659eee02c66589d1de8b9367ed4') in 0.041430 seconds
+  Import took 0.054175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049985 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/red markers.png
+  artifactKey: Guid(5c6e5812545b4564c8be4c466d58a5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/red markers.png using Guid(5c6e5812545b4564c8be4c466d58a5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2add038f353232fc728f6155dc0c7714') in 0.019658 seconds
+  Import took 0.037883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013250 seconds.
+  path: Assets/Plugins/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f12a3115079c52719eaef2949d31937') in 0.008731 seconds
+  Import took 0.013024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013446 seconds.
+  path: Assets/Plugins/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e326a2c466edcce6391d90c5db693b55') in 0.004624 seconds
+  Import took 0.008846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009397 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grape.mat
+  artifactKey: Guid(ccb08d2326c8e426e89cf8134fd38ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grape.mat using Guid(ccb08d2326c8e426e89cf8134fd38ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4393ec6a4d6e71f267d3b1ffbaf02dce') in 0.007931 seconds
+  Import took 0.012186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005645 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane.mat
+  artifactKey: Guid(9d823727a38d648978b27af5e116b43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane.mat using Guid(9d823727a38d648978b27af5e116b43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358922b90d4398e1780fc68fdec2d4cb') in 0.008360 seconds
+  Import took 0.012669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025422 seconds.
+  path: Assets/Media/Models&Sprites/UI/diamond.png
+  artifactKey: Guid(ad306958b2617364ebc69ffa0cfec07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/diamond.png using Guid(ad306958b2617364ebc69ffa0cfec07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbf74e63675491be3840992754290ae') in 0.024578 seconds
+  Import took 0.028854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039553 seconds.
+  path: Assets/Scripts/PaticlesSpawn.cs
+  artifactKey: Guid(3058783f9d2d4ec46a0045156f2f0d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PaticlesSpawn.cs using Guid(3058783f9d2d4ec46a0045156f2f0d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ed08597c692316ab7163ee3c81dbf2') in 0.003968 seconds
+  Import took 0.008397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.164235 seconds.
+  path: Assets/MissileGame/TANKS/Damaged1/damagedtank_1_Body1_MetallicSmoothness.png
+  artifactKey: Guid(38992268f55d3064c876a5ff4dd5e171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/TANKS/Damaged1/damagedtank_1_Body1_MetallicSmoothness.png using Guid(38992268f55d3064c876a5ff4dd5e171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c1ae43ef1aa4e1a0e8680a87943cd1') in 0.056284 seconds
+  Import took 0.064300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.105354 seconds.
+  path: Assets/MissileGame/ParticleSystem/smoke.png
+  artifactKey: Guid(73d405f6584bf594eb195438bb94a4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/ParticleSystem/smoke.png using Guid(73d405f6584bf594eb195438bb94a4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc6249f2629358b602bbddfa12e570a') in 0.023042 seconds
+  Import took 0.028038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039867 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/roc/b8.png
+  artifactKey: Guid(cd6fde0a5f2e87b40849d0527b7ec85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/roc/b8.png using Guid(cd6fde0a5f2e87b40849d0527b7ec85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c4115cd46c0cd7255a70e84af55a76') in 0.010723 seconds
+  Import took 0.015479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057783 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c05b5d8f7ce560906601ec4f5f8957') in 0.005716 seconds
+  Import took 0.010285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014738 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/MissileV5 (1)/BlendMissile_V5_Wings_Normal.png
+  artifactKey: Guid(fd3abdab92fd12b42bd973a968031d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/MissileV5 (1)/BlendMissile_V5_Wings_Normal.png using Guid(fd3abdab92fd12b42bd973a968031d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298e9437c8338193ecda8b72335cd88a') in 0.043258 seconds
+  Import took 0.053704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007514 seconds.
+  path: Assets/Scripts/AttachStuffs.cs
+  artifactKey: Guid(a6e0dd8861e58184f942b00602ac3b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AttachStuffs.cs using Guid(a6e0dd8861e58184f942b00602ac3b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6bece46e757126010203f135d3efb1') in 0.003808 seconds
+  Import took 0.010049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007547 seconds.
+  path: Assets/Scripts/FireTower.cs
+  artifactKey: Guid(0675cfbac691863448ff701cffe35e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FireTower.cs using Guid(0675cfbac691863448ff701cffe35e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0890eca7dc3fa4050a8982b3e3bdfc') in 0.003906 seconds
+  Import took 0.017478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014677 seconds.
+  path: Assets/Media/Models&Sprites/UI/Retry.png
+  artifactKey: Guid(f69ffd7af52f4704eb19c3ae59e20c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/Retry.png using Guid(f69ffd7af52f4704eb19c3ae59e20c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd340e24d145e2708f3574057b74d80be') in 0.030911 seconds
+  Import took 0.035527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025097 seconds.
+  path: Assets/MissileGame/Assets/Skybox/pngfind.com-smoke-texture-png-30537.png
+  artifactKey: Guid(bd6781fe52f2d654f94a7840accfa6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Skybox/pngfind.com-smoke-texture-png-30537.png using Guid(bd6781fe52f2d654f94a7840accfa6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393a543c8660ba999f68e30e1a3e18b3') in 0.013373 seconds
+  Import took 0.017670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034956 seconds.
+  path: Assets/MissileGame/ParticleSystem/effect/Fire2.png
+  artifactKey: Guid(a6d42f820ccc67f449f811f1ebac3e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/ParticleSystem/effect/Fire2.png using Guid(a6d42f820ccc67f449f811f1ebac3e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af4bbc1ef7746ed3233fb1ea7559149') in 0.008037 seconds
+  Import took 0.012671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048283 seconds.
+  path: Assets/Plugins/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d23f7900ccca64ffaaa1b7cc1884c5f') in 0.006364 seconds
+  Import took 0.010589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004510 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Skybox.mat
+  artifactKey: Guid(953e71ae084a94b128e87ff9e90548da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Skybox.mat using Guid(953e71ae084a94b128e87ff9e90548da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959bb1dc38d27d393594e0981c221544') in 0.008183 seconds
+  Import took 0.012386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036887 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/roc/b9.png
+  artifactKey: Guid(66c49341927fd554f82044a6b8b163c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/roc/b9.png using Guid(66c49341927fd554f82044a6b8b163c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a4de9a7b079843d771fd88f3e479d5') in 0.010237 seconds
+  Import took 0.014506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096371 seconds.
+  path: Assets/MissileGame/Jet/MissileHolder_Opner_Normal.png
+  artifactKey: Guid(f33f861bfca7ce743937028b8ec5facd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Jet/MissileHolder_Opner_Normal.png using Guid(f33f861bfca7ce743937028b8ec5facd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948346b93c665261635742c2c3ebf1fb') in 0.018792 seconds
+  Import took 0.023877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017563 seconds.
+  path: Assets/MissileGame/Assets/Skybox/Clouds 1.jpg
+  artifactKey: Guid(f00251cf139cd3149b7b6bded12d4485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Skybox/Clouds 1.jpg using Guid(f00251cf139cd3149b7b6bded12d4485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515195ef5fdff93e28107ccf96fb48d3') in 0.018011 seconds
+  Import took 0.022332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010969 seconds.
+  path: Assets/Plugins/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0960c9bed565ab53e86fc38a791a060c') in 0.011265 seconds
+  Import took 0.015561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039339 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r7.png
+  artifactKey: Guid(d5a8b649e10f57a46ac4b438a49dd570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r7.png using Guid(d5a8b649e10f57a46ac4b438a49dd570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ec2c4a57b897e6a06a703e0492fd94') in 0.021374 seconds
+  Import took 0.026053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018827 seconds.
+  path: Assets/MissileGame/Assets/mat/MissileHolder_Rocket_AlbedoTransparency.png
+  artifactKey: Guid(81415e290952bd74e9a0f4063dcfa823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/mat/MissileHolder_Rocket_AlbedoTransparency.png using Guid(81415e290952bd74e9a0f4063dcfa823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca419894b5ef8a4f3e64e0d9af7ba2cf') in 0.015458 seconds
+  Import took 0.019715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014551 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837c740931c79435ae779f7f7ed0eba3') in 0.004627 seconds
+  Import took 0.008871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062257 seconds.
+  path: Assets/MissileGame/Assets/Tank/TankV2.0_Body1_MetallicSmoothness.png
+  artifactKey: Guid(4f3301a4612d1d940898fa35c3076be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Tank/TankV2.0_Body1_MetallicSmoothness.png using Guid(4f3301a4612d1d940898fa35c3076be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce5f9d06cb41c2289641827a3d52061') in 0.056221 seconds
+  Import took 0.061198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037023 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/RocketSlide (1).png
+  artifactKey: Guid(6fbbeca663e187846baf0b2f640ac5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/RocketSlide (1).png using Guid(6fbbeca663e187846baf0b2f640ac5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ac8605fc448cab889dd6b97fc5a571') in 0.016749 seconds
+  Import took 0.047783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045165 seconds.
+  path: Assets/Media/Models&Sprites/UI/diamond final.png
+  artifactKey: Guid(463cf0e2ce0dac04a910d3ba930154d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/diamond final.png using Guid(463cf0e2ce0dac04a910d3ba930154d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f37f5ab9ef12cefddcb4deffec2079') in 0.011762 seconds
+  Import took 0.016492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015356 seconds.
+  path: Assets/Media/Models&Sprites/UI/color.png
+  artifactKey: Guid(52d9bf5809401ba49bb8b994f722a07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/color.png using Guid(52d9bf5809401ba49bb8b994f722a07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd300efddaf46e0e4668c4df28f36d272') in 0.015045 seconds
+  Import took 0.019355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039684 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Leaves.mat
+  artifactKey: Guid(d4954f29ebb334b08a03231dbbd93eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Leaves.mat using Guid(d4954f29ebb334b08a03231dbbd93eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e5477b857cd78ec10a49b97011e7a6') in 0.008034 seconds
+  Import took 0.012422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065787 seconds.
+  path: Assets/Scripts/ScoreMultiplier.cs
+  artifactKey: Guid(77d1663e620ad14479c0ded2224018da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoreMultiplier.cs using Guid(77d1663e620ad14479c0ded2224018da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e36576477ea73c89abdf0dd2b14cfeb') in 0.004221 seconds
+  Import took 0.019486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021005 seconds.
+  path: Assets/MissileGame/Jet/MissileHolder_lambert1_Normal.png
+  artifactKey: Guid(cc9655ecc36df58468f68ef3127ecd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Jet/MissileHolder_lambert1_Normal.png using Guid(cc9655ecc36df58468f68ef3127ecd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9122ee77f33f5a1377d1fc000dde51') in 0.015365 seconds
+  Import took 0.019692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044459 seconds.
+  path: Assets/Scripts/TankShoot.cs
+  artifactKey: Guid(e26fee929c418d34da793074a97e9b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TankShoot.cs using Guid(e26fee929c418d34da793074a97e9b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daef0197a91de3fc36d32426db33cb72') in 0.004491 seconds
+  Import took 0.009040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004781 seconds.
+  path: Assets/Plugins/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c85499b8dcf2422309526360bf1f909') in 0.004802 seconds
+  Import took 0.009426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057302 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/roc/rpcket sliders1.png
+  artifactKey: Guid(4929374c5dc877b4e94fb43537759a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/roc/rpcket sliders1.png using Guid(4929374c5dc877b4e94fb43537759a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43f182e395172f2057fd0bd498e444b') in 0.052769 seconds
+  Import took 0.057222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023286 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/newtext/MissileV5/BlendMissile_V5_lambert2_Normal.png
+  artifactKey: Guid(cc2b5c87d1e02244ba6721b7f683ca73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/newtext/MissileV5/BlendMissile_V5_lambert2_Normal.png using Guid(cc2b5c87d1e02244ba6721b7f683ca73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a243ee1d264cabe120dab94f8b81ee') in 0.042197 seconds
+  Import took 0.046453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029494 seconds.
+  path: Assets/MissileGame/Assets/mat/MissileHolder_Rocket_MetallicSmoothness.png
+  artifactKey: Guid(ffc1138ea5bea9542b699d95e0f67b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/mat/MissileHolder_Rocket_MetallicSmoothness.png using Guid(ffc1138ea5bea9542b699d95e0f67b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fd8104291e567336e4c5616e8be119') in 0.016620 seconds
+  Import took 0.020891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004566 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c33d62ec59c55656f046abb812cd5af') in 0.004519 seconds
+  Import took 0.008692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032652 seconds.
+  path: Assets/Plugins/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e12f2ff007dc0d1e71728c3d3831597') in 0.010634 seconds
+  Import took 0.014869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128409 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/roc/b1.png
+  artifactKey: Guid(e1bad04d2bbb24b449824c5a4ff26273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/roc/b1.png using Guid(e1bad04d2bbb24b449824c5a4ff26273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c91186f0e5563723b61dc22b44b337f') in 0.010301 seconds
+  Import took 0.024026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033177 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/MissileV5 (1)/BlendMissile_V5_Base_Normal.png
+  artifactKey: Guid(ce17e51c8000e2c47941ff9cd12b775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/MissileV5 (1)/BlendMissile_V5_Base_Normal.png using Guid(ce17e51c8000e2c47941ff9cd12b775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b175627700d2e12cb990cac676bb3a') in 0.043864 seconds
+  Import took 0.048302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126042 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/MissileV5 (1)/BlendMissile_V5_lambert2_Normal.png
+  artifactKey: Guid(9c1b24fff3a5f26498c50b955cc3af3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/MissileV5 (1)/BlendMissile_V5_lambert2_Normal.png using Guid(9c1b24fff3a5f26498c50b955cc3af3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857f6a5ad6a162ba38ca8fcdc5043b47') in 0.041540 seconds
+  Import took 0.045865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015390 seconds.
+  path: Assets/MissileGame/Anim/tex/Jet_lambert3SG_Normal.png
+  artifactKey: Guid(73e42d832cd85f94db7112e829a2eb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Anim/tex/Jet_lambert3SG_Normal.png using Guid(73e42d832cd85f94db7112e829a2eb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d9f22f307cc9d85d5e757db15a06d1') in 0.041314 seconds
+  Import took 0.045600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009511 seconds.
+  path: Assets/Scripts/BulletTrigger.cs
+  artifactKey: Guid(4c59da8dfee58d0488f8494825d5063e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BulletTrigger.cs using Guid(4c59da8dfee58d0488f8494825d5063e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a641dc74044c7d45491a16cb422e1120') in 0.004213 seconds
+  Import took 0.008499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089499 seconds.
+  path: Assets/Media/Shaders/WaterShader/FlatKit/Demos/[Water] Ocean Islands
+  artifactKey: Guid(5c29fb09e9451e0439a4faf7f1ef64d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader/FlatKit/Demos/[Water] Ocean Islands using Guid(5c29fb09e9451e0439a4faf7f1ef64d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a8e5d12ac9f29c28e2831a976be280') in 0.004733 seconds
+  Import took 0.009400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014032 seconds.
+  path: Assets/MissileGame/Assets/powerup/PowerUp_lambert1_AlbedoTransparency 1.png
+  artifactKey: Guid(b81f54e42ec266f44a757d7e60bab946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/powerup/PowerUp_lambert1_AlbedoTransparency 1.png using Guid(b81f54e42ec266f44a757d7e60bab946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad8669b1f5cab94bceb9840912e9780') in 0.050332 seconds
+  Import took 0.054969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030569 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/BSMissileMat/New Folder/BlendMissile_V5_Rest_Normal.png
+  artifactKey: Guid(0b0b578fab0da3d4ebde357f02f70299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/BSMissileMat/New Folder/BlendMissile_V5_Rest_Normal.png using Guid(0b0b578fab0da3d4ebde357f02f70299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853149f35557b67b927712d2974cb93b') in 0.074857 seconds
+  Import took 0.079215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029531 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony
+  artifactKey: Guid(58612866c67f5c94284852d5df725081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony using Guid(58612866c67f5c94284852d5df725081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1de77452550490450ff5b6f8453788b') in 0.005009 seconds
+  Import took 0.009657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020902 seconds.
+  path: Assets/Scripts/GlueShoot.cs
+  artifactKey: Guid(be697986648b842459858483fbcb86ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GlueShoot.cs using Guid(be697986648b842459858483fbcb86ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287542cce6dff1ffc6fe01d7aeffb759') in 0.003870 seconds
+  Import took 0.022999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091874 seconds.
+  path: Assets/MissileGame/Assets/Fence/New Material.mat
+  artifactKey: Guid(67f848067c1f6b547ab2148535e77273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Fence/New Material.mat using Guid(67f848067c1f6b547ab2148535e77273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed45aa664aaf8a9993b5c60a9efe7441') in 0.016718 seconds
+  Import took 0.021012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028224 seconds.
+  path: Assets/MissileGame/TANKS/Damaged1/damagedtank_1_Body1_Normal.png
+  artifactKey: Guid(522e0a511ef8c6844accb843da09dece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/TANKS/Damaged1/damagedtank_1_Body1_Normal.png using Guid(522e0a511ef8c6844accb843da09dece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1effaa776a86597a2f1b8805f49446cf') in 0.045194 seconds
+  Import took 0.049448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013382 seconds.
+  path: Assets/MissileGame/Jet/MissileHolder_Rocket_Normal.png
+  artifactKey: Guid(3e580f76ee077e348b6983b250e4ff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Jet/MissileHolder_Rocket_Normal.png using Guid(3e580f76ee077e348b6983b250e4ff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a4e41c3ac854240bb17218ae5a628c') in 0.015342 seconds
+  Import took 0.019608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004489 seconds.
+  path: Assets/Media/Shaders/WaterShader/FlatKit/[Render Pipeline] URP/Water/Textures
+  artifactKey: Guid(357827c631564a34f9c7ef0a4fd229f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader/FlatKit/[Render Pipeline] URP/Water/Textures using Guid(357827c631564a34f9c7ef0a4fd229f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4989aac012cf910d3a597f1bc60baed3') in 0.004356 seconds
+  Import took 0.008626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087667 seconds.
+  path: Assets/MissileGame/joypad/Ring.png
+  artifactKey: Guid(e68e6a88484972e4fba7597d85fb8082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/joypad/Ring.png using Guid(e68e6a88484972e4fba7597d85fb8082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfe70f951ace2c8070d922b082bfe20') in 0.019277 seconds
+  Import took 0.033000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018111 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials
+  artifactKey: Guid(292c637874f78ef4ca2b44136df0f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials using Guid(292c637874f78ef4ca2b44136df0f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f2c7993615cb4d94f3d10160007c8c') in 0.004443 seconds
+  Import took 0.008629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017556 seconds.
+  path: Assets/Scripts/MeshSwap.cs
+  artifactKey: Guid(2d1d1a6b32996b341a1329ab42241b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MeshSwap.cs using Guid(2d1d1a6b32996b341a1329ab42241b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8fac066747f35acd1a9c29846126cd') in 0.003874 seconds
+  Import took 0.007982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007195 seconds.
+  path: Assets/Scripts/Shakycam.cs
+  artifactKey: Guid(7bd6e239b609b7e4bbdd5f540dba3531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Shakycam.cs using Guid(7bd6e239b609b7e4bbdd5f540dba3531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9986d55f83c482d95ef202d96fe16b74') in 0.003900 seconds
+  Import took 0.008010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014209 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/BSMissileMat/BlendMissile_V5_Butt_Normal.png
+  artifactKey: Guid(1d87eba28ed171d44baa328117a2e530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/BSMissileMat/BlendMissile_V5_Butt_Normal.png using Guid(1d87eba28ed171d44baa328117a2e530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5924a31dfc73d87f05888e031d53f9') in 0.045227 seconds
+  Import took 0.049512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120711 seconds.
+  path: Assets/Media/Shaders/[Water] Ocean Islands
+  artifactKey: Guid(f33df00ca3bc31043824a2dce89cf8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Water] Ocean Islands using Guid(f33df00ca3bc31043824a2dce89cf8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd37d160b074cd60faba1309ef885df') in 0.001382 seconds
+  Import took 0.006250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009237 seconds.
+  path: Assets/Scripts/CutsceneToGame.cs
+  artifactKey: Guid(af09c40e8f500074fa66a16310cfb694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CutsceneToGame.cs using Guid(af09c40e8f500074fa66a16310cfb694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a3233944951a67db09279400fc8aa9') in 0.005010 seconds
+  Import took 0.014975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006730 seconds.
+  path: Assets/Media/Shaders/WaterShader/FlatKit/[Render Pipeline] URP/Water/Shaders
+  artifactKey: Guid(a28a588a37fb68a41986fcff18c0f621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader/FlatKit/[Render Pipeline] URP/Water/Shaders using Guid(a28a588a37fb68a41986fcff18c0f621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a999f305ee34103838349fb56e5448fc') in 0.005198 seconds
+  Import took 0.010442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037827 seconds.
+  path: Assets/MissileGame/Assets/Clouds (1) (1).png
+  artifactKey: Guid(c0f8891087104f942b9ba49c9160920f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Clouds (1) (1).png using Guid(c0f8891087104f942b9ba49c9160920f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15821e733941585df099811cc5cb829c') in 0.026665 seconds
+  Import took 0.032471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015255 seconds.
+  path: Assets/Media/Models&Sprites/Game/Others/AnimClips/BlobAnimClip.anim
+  artifactKey: Guid(271c63ad338840b42be6679c6cae6d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/Game/Others/AnimClips/BlobAnimClip.anim using Guid(271c63ad338840b42be6679c6cae6d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35f56ea5ec3d032607f6e489ac663de') in 0.007586 seconds
+  Import took 0.012813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024440 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r2.png
+  artifactKey: Guid(455579eb63786e2409baad6a1573676f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r2.png using Guid(455579eb63786e2409baad6a1573676f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f7473fbd76d2632747a151d73bc2fc') in 0.020054 seconds
+  Import took 0.024919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016324 seconds.
+  path: Assets/Plugins/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6aee410b257700fcf42d0b0596cfb87') in 0.005776 seconds
+  Import took 0.010391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029874 seconds.
+  path: Assets/MissileGame/ParticleSystem/effect/Fire2 1.png
+  artifactKey: Guid(34bccc7ec12f61d46b43440a5c813a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/ParticleSystem/effect/Fire2 1.png using Guid(34bccc7ec12f61d46b43440a5c813a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1663ccdb52f119be4bad73fec6173621') in 0.010852 seconds
+  Import took 0.025185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076385 seconds.
+  path: Assets/MissileGame/ParticleSystem/effect/Anim_Smoke 1.png
+  artifactKey: Guid(cde951c3bbaca4a4d973281c99f2f032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/ParticleSystem/effect/Anim_Smoke 1.png using Guid(cde951c3bbaca4a4d973281c99f2f032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd7b40ce0d21ed2b2310bebf37da8d5') in 0.012068 seconds
+  Import took 0.016782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039841 seconds.
+  path: Assets/Media/Textures
+  artifactKey: Guid(53d9ced438f8333439155612da2c340d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Textures using Guid(53d9ced438f8333439155612da2c340d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b008a95eb387df17eeecc11045bbfe0') in 0.001116 seconds
+  Import took 0.005033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066255 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Apple.mat
+  artifactKey: Guid(296f44fbf99bf4a358d0f718c4db034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Apple.mat using Guid(296f44fbf99bf4a358d0f718c4db034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affe483528ff006a7cd65258a2885c58') in 0.009084 seconds
+  Import took 0.013575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007817 seconds.
+  path: Assets/Scripts/CamController2.cs
+  artifactKey: Guid(528389b019681f14db5d22d893e43f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CamController2.cs using Guid(528389b019681f14db5d22d893e43f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae25e24ad6c24e99c04d746df2bc68e') in 0.004230 seconds
+  Import took 0.008602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081673 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/BSMissileMat/BlendMissile_V5_Wings_Normal.png
+  artifactKey: Guid(3b97a27f375c54a4fb0c46fcc2a36f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/BSMissileMat/BlendMissile_V5_Wings_Normal.png using Guid(3b97a27f375c54a4fb0c46fcc2a36f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb13347c3bfc710b033d8c72ebd2cc1') in 0.050982 seconds
+  Import took 0.055432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067451 seconds.
+  path: Assets/Media/Models&Sprites/UI/play.png
+  artifactKey: Guid(a5cd4d26af8199d4c8c269a92fcd90c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/play.png using Guid(a5cd4d26af8199d4c8c269a92fcd90c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908ce819db348cf551a9bf29f4a113ca') in 0.065462 seconds
+  Import took 0.069778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064044 seconds.
+  path: Assets/MissileGame/Assets/mat/MissileHolder_Rocket_Normal.png
+  artifactKey: Guid(2cfed9424860cb24c9a36b43c6ebbe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/mat/MissileHolder_Rocket_Normal.png using Guid(2cfed9424860cb24c9a36b43c6ebbe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a8f2924b828068a0478f005eae78ea') in 0.015841 seconds
+  Import took 0.020103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042989 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/rocket
+  artifactKey: Guid(85453d210c31b144bac45c3d3a7b0000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/rocket using Guid(85453d210c31b144bac45c3d3a7b0000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6359d88adca7cbdc8635551a71c7c1ed') in 0.003859 seconds
+  Import took 0.017191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023534 seconds.
+  path: Assets/Plugins/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada4d591ff415cf3a0a658768271f43a') in 0.004197 seconds
+  Import took 0.008396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056298 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/BSMissileMat/BlendMissile_V5_Rest_Normal.png
+  artifactKey: Guid(9782f7a11391d5e45b933e309cebfd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/BSMissileMat/BlendMissile_V5_Rest_Normal.png using Guid(9782f7a11391d5e45b933e309cebfd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf846ec9872dd1c96002905f4924a130') in 0.048778 seconds
+  Import took 0.053050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024394 seconds.
+  path: Assets/Media/Shaders/WaterShader
+  artifactKey: Guid(eed9a761a46f04b4fa73d92afed63d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader using Guid(eed9a761a46f04b4fa73d92afed63d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b55554acfcf7d9163761f7dbb393be') in 0.003895 seconds
+  Import took 0.008056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028140 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f7ec7942c62624ddfef8dbb6939f60') in 0.004678 seconds
+  Import took 0.009383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009235 seconds.
+  path: Assets/Scripts/PlayerGlueStick.cs
+  artifactKey: Guid(0cf135868eddb794cb0810c6796b0374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerGlueStick.cs using Guid(0cf135868eddb794cb0810c6796b0374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc0aa632a37dcc7ea066af5d5e2266e') in 0.004104 seconds
+  Import took 0.008320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022540 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc7dda740a55279b31b42168b91df2e') in 0.005425 seconds
+  Import took 0.009656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007279 seconds.
+  path: Assets/Scripts/Buttons.cs
+  artifactKey: Guid(03ceca1f6a0fdf749a3945b77d6083e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Buttons.cs using Guid(03ceca1f6a0fdf749a3945b77d6083e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7c7023703923b3b393824904a063ad') in 0.003914 seconds
+  Import took 0.008043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004144 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider
+  artifactKey: Guid(fca8f3614c32e664daf03c986384a753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider using Guid(fca8f3614c32e664daf03c986384a753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c118a5c7705705b1fac2ccc683b0db6') in 0.003950 seconds
+  Import took 0.008053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093950 seconds.
+  path: Assets/MissileGame/Assets/Tank/TankV2.0_Body1_Normal.png
+  artifactKey: Guid(dfc19ba47ff37da458a71506e72fa014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Tank/TankV2.0_Body1_Normal.png using Guid(dfc19ba47ff37da458a71506e72fa014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff3841585506eee34658fa318bd04dc') in 0.049746 seconds
+  Import took 0.054128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056043 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450d2ebb031f7f6431d72e761c2d41ff') in 0.004825 seconds
+  Import took 0.009059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014556 seconds.
+  path: Assets/MissileGame/Anim/tex/Jet_lambert3SG_AlbedoTransparency.png
+  artifactKey: Guid(1b3d5161af92d2e4a862f3cdb1ac2c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Anim/tex/Jet_lambert3SG_AlbedoTransparency.png using Guid(1b3d5161af92d2e4a862f3cdb1ac2c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92d746da190921da01df3b7832fa68e') in 0.043679 seconds
+  Import took 0.047999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022029 seconds.
+  path: Assets/MissileGame/Assets/Skybox/197625.png
+  artifactKey: Guid(c1e2009f0073bfc48adebf3c0d695cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Skybox/197625.png using Guid(c1e2009f0073bfc48adebf3c0d695cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7960ef9804e96ad421d04520b3ae2868') in 0.010456 seconds
+  Import took 0.014767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043089 seconds.
+  path: Assets/Media/Shaders/WaterShader/FlatKit/[Render Pipeline] URP/Water/Textures/water_texture_16.png
+  artifactKey: Guid(062db1959aabc4afb95dd37cf1c09dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader/FlatKit/[Render Pipeline] URP/Water/Textures/water_texture_16.png using Guid(062db1959aabc4afb95dd37cf1c09dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2489b0ccd142eed9fa2c755a346ba3a9') in 0.061887 seconds
+  Import took 0.066657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055969 seconds.
+  path: Assets/MissileGame/Assets/Skybox/clsd.jpg
+  artifactKey: Guid(1a3c4910081ac744087fc1cb6a9ee649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Skybox/clsd.jpg using Guid(1a3c4910081ac744087fc1cb6a9ee649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39594495cb78cad882dd5e4f566c162') in 0.021835 seconds
+  Import took 0.026078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095044 seconds.
+  path: Assets/MissileGame/ParticleSystem/Environment.prefab
+  artifactKey: Guid(7f2e8e5308b67f84abf5609843388e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/ParticleSystem/Environment.prefab using Guid(7f2e8e5308b67f84abf5609843388e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a30cd3bf8800e8fd02295addf7368a') in 0.030075 seconds
+  Import took 0.034703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050378 seconds.
+  path: Assets/Scripts/SpawnTouch.cs
+  artifactKey: Guid(0f44a8adbea213a498f52973f02a6727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpawnTouch.cs using Guid(0f44a8adbea213a498f52973f02a6727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40ca0e42bbaf74b040c8a6dd763aa0d') in 0.004158 seconds
+  Import took 0.008663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004614 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Stalks.mat
+  artifactKey: Guid(9d8c7bc0291ea46609bd39a48f613b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Stalks.mat using Guid(9d8c7bc0291ea46609bd39a48f613b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6973ff3de4b1151c6a7c77738ffd1901') in 0.009384 seconds
+  Import took 0.024197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077807 seconds.
+  path: Assets/Scripts/Touching.cs
+  artifactKey: Guid(07b2e0e99f7182a4ab4024eebf5f4271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Touching.cs using Guid(07b2e0e99f7182a4ab4024eebf5f4271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e1d663b09e1e5b29f90cf9f15869f2') in 0.003949 seconds
+  Import took 0.008448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097182 seconds.
+  path: Assets/MissileGame/Assets/PowerDown/PowerUp_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(a183d0e9bc25be84bb3f20ea39fa4705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/PowerDown/PowerUp_lambert1_MetallicSmoothness.png using Guid(a183d0e9bc25be84bb3f20ea39fa4705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7403f843dd2a5e68632044e596e605c1') in 0.055855 seconds
+  Import took 0.060346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004502 seconds.
+  path: Assets/Media/Shaders/WaterShader/FlatKit/[Render Pipeline] URP
+  artifactKey: Guid(7a50f54e1faca7540860fcc43f1c8150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader/FlatKit/[Render Pipeline] URP using Guid(7a50f54e1faca7540860fcc43f1c8150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1bb63daad893b8a7261c25d6fb06d0') in 0.003882 seconds
+  Import took 0.017103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119980 seconds.
+  path: Assets/Plugins/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1596b7b6b705ac61224f1a623d7e2567') in 0.006273 seconds
+  Import took 0.010505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018973 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r8.png
+  artifactKey: Guid(4e1a8aefa9b5a81418c3f73eef0d24ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r8.png using Guid(4e1a8aefa9b5a81418c3f73eef0d24ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ade65a8d2a94ccfc62cf9cac18e5d3') in 0.015350 seconds
+  Import took 0.019720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004508 seconds.
+  path: Assets/Plugins/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a6f8bf1b42f03c1782184da61f0849') in 0.004190 seconds
+  Import took 0.008491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014562 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/newtext/MissileV5/BlendMissile_V5_Butt_Normal.png
+  artifactKey: Guid(c392cbd0d306554419cb37f6ba8ce3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/newtext/MissileV5/BlendMissile_V5_Butt_Normal.png using Guid(c392cbd0d306554419cb37f6ba8ce3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80bc976fe1b2ad3911734f2903b3a1f') in 0.041022 seconds
+  Import took 0.051466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011012 seconds.
+  path: Assets/Scripts/LevelGenerator.cs
+  artifactKey: Guid(3734fcf83a1c9274589ac6c233707b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelGenerator.cs using Guid(3734fcf83a1c9274589ac6c233707b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a94c6e5b2df80240508617ce7d6037d') in 0.004102 seconds
+  Import took 0.008325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.128782 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a028ac85a9468cb70bfbb8ff21c3138f') in 0.004470 seconds
+  Import took 0.015036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034694 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r9.png
+  artifactKey: Guid(921d12557bf27914ca3083f5d5edb3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r9.png using Guid(921d12557bf27914ca3083f5d5edb3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53417be0dbba7b0f0ab90317a9d028ae') in 0.017166 seconds
+  Import took 0.021420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004212 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab8a30a78d2e5b170691d191547a9c7') in 0.003912 seconds
+  Import took 0.008065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055011 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r3.png
+  artifactKey: Guid(b117e5807b9479e4ab00b8984cae11bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r3.png using Guid(b117e5807b9479e4ab00b8984cae11bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a90a836909c5cb0bba641f5e31778f') in 0.017696 seconds
+  Import took 0.022203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038979 seconds.
+  path: Assets/Scripts/NewCam.cs
+  artifactKey: Guid(a6766916968f4de43ad57ac629598678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewCam.cs using Guid(a6766916968f4de43ad57ac629598678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483a049fb877d0c93fa0ebb3c0f3088e') in 0.004089 seconds
+  Import took 0.008411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022518 seconds.
+  path: Assets/Scripts/TankMesh.cs
+  artifactKey: Guid(9640df19d3a4289459b4d8902e4c3070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TankMesh.cs using Guid(9640df19d3a4289459b4d8902e4c3070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e776b314bb4a469275c4b88e1168c3') in 0.003903 seconds
+  Import took 0.008014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041812 seconds.
+  path: Assets/Scripts/DestroyParticle.cs
+  artifactKey: Guid(89311d03a7b125248aa6724d5a47e105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DestroyParticle.cs using Guid(89311d03a7b125248aa6724d5a47e105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d59ab5dc7b84e1a8938e3819580fa40') in 0.003989 seconds
+  Import took 0.008103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007288 seconds.
+  path: Assets/Scripts/CamController.cs
+  artifactKey: Guid(6dc4c5e133f417d48b4ff338cb7380a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CamController.cs using Guid(6dc4c5e133f417d48b4ff338cb7380a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7236e7b397a6b943bbde6cb3343360fe') in 0.003853 seconds
+  Import took 0.007946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035802 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/roc/b2.png
+  artifactKey: Guid(41e115285048c0b4596ab3dc9a347058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/roc/b2.png using Guid(41e115285048c0b4596ab3dc9a347058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c7ae8e2d7f0737ca0b32c6ea44ab07') in 0.009818 seconds
+  Import took 0.014063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014979 seconds.
+  path: Assets/Scripts/Detect.cs
+  artifactKey: Guid(45e250efc6153fe409aeb79120083b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Detect.cs using Guid(45e250efc6153fe409aeb79120083b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b558f3884bdf4c4aad4d6513a3b75582') in 0.003896 seconds
+  Import took 0.014454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023063 seconds.
+  path: Assets/MissileGame/ParticleSystem/whitesmoke.png
+  artifactKey: Guid(ff03273d88dbdee41aa7c77b378c3d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/ParticleSystem/whitesmoke.png using Guid(ff03273d88dbdee41aa7c77b378c3d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01a49d80cb7a4794088abbef9f12fd5') in 0.018784 seconds
+  Import took 0.023047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007888 seconds.
+  path: Assets/Media/Models&Sprites/Game/Others/Animators/blob.controller
+  artifactKey: Guid(c595382b80f24a04fb6e8702c028f9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/Game/Others/Animators/blob.controller using Guid(c595382b80f24a04fb6e8702c028f9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147b7d47aea0a0e6abcd704f5a0228d6') in 0.014220 seconds
+  Import took 0.018517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078521 seconds.
+  path: Assets/Scripts/MissileMove.cs
+  artifactKey: Guid(5a1eb89eabccc364899e5f2e10705b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MissileMove.cs using Guid(5a1eb89eabccc364899e5f2e10705b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb1aa1e87f905b1ad93d94acdb63be1') in 0.003932 seconds
+  Import took 0.008128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102031 seconds.
+  path: Assets/Media/Shaders/WaterShader/FlatKit
+  artifactKey: Guid(2611efc33a1fcb949845f70036cf57a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader/FlatKit using Guid(2611efc33a1fcb949845f70036cf57a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716c9663f01c4e08361a67d6be8dca8c') in 0.004352 seconds
+  Import took 0.008534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032850 seconds.
+  path: Assets/MissileGame/ParticleSystem/effect/T_GlowCircle.png
+  artifactKey: Guid(0997898ae7cb2dc428abeb3da5b481d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/ParticleSystem/effect/T_GlowCircle.png using Guid(0997898ae7cb2dc428abeb3da5b481d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7866b6b3ae9358d19756393a1d8639c') in 0.007739 seconds
+  Import took 0.012202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016386 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Strawberry.mat
+  artifactKey: Guid(420b99919db8d4e49ab62697a33585ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Strawberry.mat using Guid(420b99919db8d4e49ab62697a33585ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b26abfec51cbc6fdf55c91e9b9f30d') in 0.008688 seconds
+  Import took 0.013400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030928 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane2.mat
+  artifactKey: Guid(7960ccd4b93bf4d6890224b11274ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane2.mat using Guid(7960ccd4b93bf4d6890224b11274ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d88838ce24b94e0457dfce309d4d85') in 0.008904 seconds
+  Import took 0.013151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044547 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/roc/b6.png
+  artifactKey: Guid(e1b8ec9c4f3c1154eb7130eba57a51b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/roc/b6.png using Guid(e1b8ec9c4f3c1154eb7130eba57a51b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ee0e2ab106635a795f12509f6022eb') in 0.009607 seconds
+  Import took 0.013891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106466 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r4.png
+  artifactKey: Guid(7c95e19d65800334c83ffb924f7ec709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r4.png using Guid(7c95e19d65800334c83ffb924f7ec709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbaadf3394b01f2b37c8aaba2419623f') in 0.019254 seconds
+  Import took 0.023605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004830 seconds.
+  path: Assets/Media/Shaders/WaterShader/FlatKit/[Render Pipeline] URP/Water/Shaders/Water.shader
+  artifactKey: Guid(efcaf526ceb1f4efd9eb4e4c30c6ade6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader/FlatKit/[Render Pipeline] URP/Water/Shaders/Water.shader using Guid(efcaf526ceb1f4efd9eb4e4c30c6ade6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234a9d142c2b087db642c2548489b58f') in 0.004656 seconds
+  Import took 0.008998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014780 seconds.
+  path: Assets/MissileGame/Jet/MissileHolder_Opner_AlbedoTransparency.png
+  artifactKey: Guid(9678249d2852af8418d2f4a669ca634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Jet/MissileHolder_Opner_AlbedoTransparency.png using Guid(9678249d2852af8418d2f4a669ca634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10912cf7622aff3f9048ffe0f36f221') in 0.016367 seconds
+  Import took 0.030268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008140 seconds.
+  path: Assets/Scripts/RagdollCollision.cs
+  artifactKey: Guid(cedc23fa48284d542842643885d1acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RagdollCollision.cs using Guid(cedc23fa48284d542842643885d1acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeab5e202f1bc89ab0baa2c093ca01d') in 0.003881 seconds
+  Import took 0.008036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027055 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/roc
+  artifactKey: Guid(e634135f89f58224fb98c4602705a2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/roc using Guid(e634135f89f58224fb98c4602705a2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba5cd3a8a364034f46e24ffeafa552a') in 0.004192 seconds
+  Import took 0.014728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020542 seconds.
+  path: Assets/Scripts/DistanceCalculator.cs
+  artifactKey: Guid(cb1e79f69841d63429bbc5da9c22fcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DistanceCalculator.cs using Guid(cb1e79f69841d63429bbc5da9c22fcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4660533a67cb1ced36a5b00b576258') in 0.004142 seconds
+  Import took 0.008301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012455 seconds.
+  path: Assets/MissileGame/TANKS/Damaged1/damagedtank_1_Rest_Normal.png
+  artifactKey: Guid(fb03f76ad1678d54fb6a9a1484dffa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/TANKS/Damaged1/damagedtank_1_Rest_Normal.png using Guid(fb03f76ad1678d54fb6a9a1484dffa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10159f4e8cb75b959a34c7f7677e79c2') in 0.049707 seconds
+  Import took 0.053957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018185 seconds.
+  path: Assets/MissileGame/Jet/MissileHolder_Rocket_MetallicSmoothness.png
+  artifactKey: Guid(decb3a865e6f7654bbf12ce5d90ed09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Jet/MissileHolder_Rocket_MetallicSmoothness.png using Guid(decb3a865e6f7654bbf12ce5d90ed09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51e4211111f074be2eee14c5d511640') in 0.013969 seconds
+  Import took 0.018177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022732 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/newtext/MissileV5/BlendMissile_V5_Wings_Normal.png
+  artifactKey: Guid(6f42c4830ec7f674c827eca088346c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/newtext/MissileV5/BlendMissile_V5_Wings_Normal.png using Guid(6f42c4830ec7f674c827eca088346c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ad9952100b83339f558cb5b61410d3') in 0.044661 seconds
+  Import took 0.048967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017493 seconds.
+  path: Assets/MissileGame/Assets/Skybox/Cloudv2 (1).jpg
+  artifactKey: Guid(80d9a79a11a44a84ebc5b275e9ed014d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Skybox/Cloudv2 (1).jpg using Guid(80d9a79a11a44a84ebc5b275e9ed014d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad4ca0a2cf82c58cc41fc3b6c81e537') in 0.015700 seconds
+  Import took 0.028294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030861 seconds.
+  path: Assets/Media/Shaders/WaterShader/FlatKit/Demos
+  artifactKey: Guid(04dacc1addfa3a84189a1b217145f365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader/FlatKit/Demos using Guid(04dacc1addfa3a84189a1b217145f365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a889df0c2ee728f68bcc0d760fb6fa') in 0.004052 seconds
+  Import took 0.008242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024751 seconds.
+  path: Assets/MissileGame/Jet/MissileHolder_Rocket_AlbedoTransparency.png
+  artifactKey: Guid(33399e31e232f2d4685f65baebfb344b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Jet/MissileHolder_Rocket_AlbedoTransparency.png using Guid(33399e31e232f2d4685f65baebfb344b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1b8332cab48b2a2715b496c1832c73') in 0.018338 seconds
+  Import took 0.022815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039981 seconds.
+  path: Assets/Plugins/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab
+  artifactKey: Guid(3369231b1ed7ad34e84d9240a571db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab using Guid(3369231b1ed7ad34e84d9240a571db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21101ca73a251bd332d0c1b8c67cd47c') in 0.022720 seconds
+  Import took 0.027235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016564 seconds.
+  path: Assets/Media/Shaders/WaterShader/FlatKit/[Render Pipeline] URP/Water
+  artifactKey: Guid(9e3d1adfb493259498a316b41144b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader/FlatKit/[Render Pipeline] URP/Water using Guid(9e3d1adfb493259498a316b41144b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495ad7ea1866c401aee472ccd92bfb11') in 0.001152 seconds
+  Import took 0.005044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047646 seconds.
+  path: Assets/MissileGame/TANKS/Damaged1/damagedtank_1_Rest_AlbedoTransparency.png
+  artifactKey: Guid(60542f792fbfe18489ed237bd49e2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/TANKS/Damaged1/damagedtank_1_Rest_AlbedoTransparency.png using Guid(60542f792fbfe18489ed237bd49e2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0442fb0233b6391359bcc02517ab25') in 0.049877 seconds
+  Import took 0.054807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036743 seconds.
+  path: Assets/Scripts/Shooter.cs
+  artifactKey: Guid(32713f3b27d94274f8235d62ea0f8fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Shooter.cs using Guid(32713f3b27d94274f8235d62ea0f8fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14e8af52e96e09c0763b8d2e88db323') in 0.003944 seconds
+  Import took 0.008322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016111 seconds.
+  path: Assets/MissileGame/Assets/Tank/TankV2.0_Body1_AlbedoTransparency.png
+  artifactKey: Guid(e07596acef5fd18449c59cbb337ebe38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Tank/TankV2.0_Body1_AlbedoTransparency.png using Guid(e07596acef5fd18449c59cbb337ebe38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1955e2583a4090dd7ae3c6323ea0f4e0') in 0.052211 seconds
+  Import took 0.064490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070869 seconds.
+  path: Assets/Plugins/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83edb16dae667fd3722554cd9e6406d') in 0.004745 seconds
+  Import took 0.008983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135233 seconds.
+  path: Assets/MissileGame/Assets/Skybox/Clouds.jpg
+  artifactKey: Guid(f3047e839d7837c4aaa3f512ba42f611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Skybox/Clouds.jpg using Guid(f3047e839d7837c4aaa3f512ba42f611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9680c876f6484c58268ae80713c6661d') in 0.018733 seconds
+  Import took 0.042730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024206 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Banana.mat
+  artifactKey: Guid(09d689fffc8ae4e19a0c30d4470c8a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Banana.mat using Guid(09d689fffc8ae4e19a0c30d4470c8a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad305e86c2bd73e1cb5ad96521105618') in 0.008450 seconds
+  Import took 0.012808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004394 seconds.
+  path: Assets/Media/Shaders/[Water] Ocean Islands/Ocean Islands Scene - Materials
+  artifactKey: Guid(fe3143e875980dc4d91bf13823a11813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Water] Ocean Islands/Ocean Islands Scene - Materials using Guid(fe3143e875980dc4d91bf13823a11813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ddd1d5aefa561fc60e275f8e49435a') in 0.003963 seconds
+  Import took 0.008117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007615 seconds.
+  path: Assets/Scripts/test.cs
+  artifactKey: Guid(91aca28df0969ac40acb0b2981682e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/test.cs using Guid(91aca28df0969ac40acb0b2981682e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc3c59695ae444bcfc28ab3a7503565') in 0.004298 seconds
+  Import took 0.008493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004592 seconds.
+  path: Assets/Media/Models&Sprites/UI
+  artifactKey: Guid(c481e5f8d60dfb848b938f6b53e33bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI using Guid(c481e5f8d60dfb848b938f6b53e33bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a7f61ffb8b9cfa8406ba93181e2563') in 0.004350 seconds
+  Import took 0.008519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019057 seconds.
+  path: Assets/Plugins/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+  artifactKey: Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab using Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a6d4e839dcf27f945e23006eb7febf') in 0.006514 seconds
+  Import took 0.011022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004694 seconds.
+  path: Assets/Scenes/TitleCardScene.unity
+  artifactKey: Guid(3712fce8a070ffb4eac56d3d9c70dffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TitleCardScene.unity using Guid(3712fce8a070ffb4eac56d3d9c70dffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09d7cdc920905ef2ace445bbcde5878') in 0.004325 seconds
+  Import took 0.008524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.648747 seconds.
+  path: Assets/MissileGame/Assets/powerup/PowerUp_lambert1_Normal 1.png
+  artifactKey: Guid(87c1afcd24745eb4cb80d9231c550ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/powerup/PowerUp_lambert1_Normal 1.png using Guid(87c1afcd24745eb4cb80d9231c550ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b44c527dd2ee434352fc21cf22cc9db') in 0.048441 seconds
+  Import took 0.053150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.215337 seconds.
+  path: Assets/MissileGame/Assets/Skybox/CloudShader.shadergraph
+  artifactKey: Guid(85dd5d52375464e40b10e8fc824cb798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Skybox/CloudShader.shadergraph using Guid(85dd5d52375464e40b10e8fc824cb798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ad75869fc12063da4ce436217c5e07') in 0.137718 seconds
+  Import took 0.142025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071482 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/roc/b5.png
+  artifactKey: Guid(f49b15eae691cb140bbe427de4781afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/roc/b5.png using Guid(f49b15eae691cb140bbe427de4781afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc37c73dc9c3d78607833a63ef8c10bb') in 0.010218 seconds
+  Import took 0.014649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004789 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single
+  artifactKey: Guid(ead3da5dfc011a146b0e3ed6ae8058c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single using Guid(ead3da5dfc011a146b0e3ed6ae8058c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce54df58a096381b1f9958a9a5c851a') in 0.004137 seconds
+  Import took 0.008367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009740 seconds.
+  path: Assets/Scripts/levelling.cs
+  artifactKey: Guid(71539c9bd80370e49bce112183fb7641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/levelling.cs using Guid(71539c9bd80370e49bce112183fb7641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33fb10fa39a4e9ed1e8c4698076b69e') in 0.004272 seconds
+  Import took 0.008577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004347 seconds.
+  path: Assets/Media/Shaders/WaterShader/FlatKit/Demos/[Water] Ocean Islands/Ocean Islands Scene - Materials
+  artifactKey: Guid(e4f67a84c8a7c644f838bf7beadae4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader/FlatKit/Demos/[Water] Ocean Islands/Ocean Islands Scene - Materials using Guid(e4f67a84c8a7c644f838bf7beadae4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2663afe94ef9b54a6e2ab3065d3d7d9') in 0.001082 seconds
+  Import took 0.005291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059067 seconds.
+  path: Assets/MissileGame/TANKS/Damaged1/damagedtank_1_Rest_MetallicSmoothness.png
+  artifactKey: Guid(027e945998af2494d82824de889f289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/TANKS/Damaged1/damagedtank_1_Rest_MetallicSmoothness.png using Guid(027e945998af2494d82824de889f289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e15c5c8da52f00303b388d9476b8748') in 0.064036 seconds
+  Import took 0.069699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028398 seconds.
+  path: Assets/MissileGame/TANKS/Tani_ANI.fbx
+  artifactKey: Guid(e8780be8b9d2b124e84825dca4ca2334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/TANKS/Tani_ANI.fbx using Guid(e8780be8b9d2b124e84825dca4ca2334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8709e592e1d98266068a6c5f7d6a116') in 0.357327 seconds
+  Import took 0.362315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023314 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear1.mat
+  artifactKey: Guid(4061a85dc5dea44119966936744e4065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear1.mat using Guid(4061a85dc5dea44119966936744e4065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6a2be9b7fcdc2055719ee66b379bb2') in 0.008894 seconds
+  Import took 0.013146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016084 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/newtext/MissileV5/BlendMissile_V5_Base_Normal.png
+  artifactKey: Guid(188c1fd7cacdc5c4f8e8219de28d299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/newtext/MissileV5/BlendMissile_V5_Base_Normal.png using Guid(188c1fd7cacdc5c4f8e8219de28d299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e2a4c4f778dfa179b5213b340197ef') in 0.050974 seconds
+  Import took 0.055227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050093 seconds.
+  path: Assets/Media/Shaders/WaterShader/Plane_25Edges_Displaced_1.fbx
+  artifactKey: Guid(62c0a44460e1bfd439b06891295c2551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader/Plane_25Edges_Displaced_1.fbx using Guid(62c0a44460e1bfd439b06891295c2551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42aa582f2ef0f8f4af03bcbeb93685b1') in 0.012928 seconds
+  Import took 0.017214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018881 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear2.mat
+  artifactKey: Guid(0f171c6eeafc140ccaa4cbb55e13d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear2.mat using Guid(0f171c6eeafc140ccaa4cbb55e13d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf0bf9e27d12613c433a4d50d4c4ae7') in 0.008316 seconds
+  Import took 0.012665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060741 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6793f72fc7eed4b0bfed5c1ee4495a5f') in 0.004348 seconds
+  Import took 0.008535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004460 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7112f1dddff8674a4344dd1af1279bd') in 0.004359 seconds
+  Import took 0.008510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050355 seconds.
+  path: Assets/Scripts/ArrowMove.cs
+  artifactKey: Guid(046e90e54e707c9478efcbe290ef21e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ArrowMove.cs using Guid(046e90e54e707c9478efcbe290ef21e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a131b810355541ce3fd767cbe9092d1') in 0.003992 seconds
+  Import took 0.008395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008677 seconds.
+  path: Assets/Plugins/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb125abe665feb28dc57210faf7e298f') in 0.004422 seconds
+  Import took 0.008700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009220 seconds.
+  path: Assets/Scripts/CamChange.cs
+  artifactKey: Guid(0cc2e0e2f68b7ae40a16e75d7633ab27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CamChange.cs using Guid(0cc2e0e2f68b7ae40a16e75d7633ab27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1204ae56275c22ac5a15f4ffc8eb3b84') in 0.004044 seconds
+  Import took 0.008247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045380 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/BSMissileMat/BlendMissile_V5_lambert2_Normal.png
+  artifactKey: Guid(26e798dbc6e47f042847a2957bd40463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/BSMissileMat/BlendMissile_V5_lambert2_Normal.png using Guid(26e798dbc6e47f042847a2957bd40463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ae2138fd991369d1687ac7dc4f3dc5') in 0.047376 seconds
+  Import took 0.051732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004519 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeed2abf80f5949d754ef13c68a3ad22') in 0.004593 seconds
+  Import took 0.008768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004473 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5342c58dfe388ea2264ce97b550dcc8f') in 0.004183 seconds
+  Import took 0.008320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088574 seconds.
+  path: Assets/MissileGame/TANKS/Bullet_lambert1_Normal.png
+  artifactKey: Guid(e8a5e7eafcc95e84dad3840eeedd5e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/TANKS/Bullet_lambert1_Normal.png using Guid(e8a5e7eafcc95e84dad3840eeedd5e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726965e7c2c178dfa125cdd0c9152c27') in 0.024590 seconds
+  Import took 0.035061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011909 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f37c8c559ec61bbc2934e1c2dc0ec97') in 0.004476 seconds
+  Import took 0.008691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009023 seconds.
+  path: Assets/Scripts/GlueBullet.cs
+  artifactKey: Guid(bde60a65d4b96934d80665a236cab951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GlueBullet.cs using Guid(bde60a65d4b96934d80665a236cab951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfe7bae2be6eeb77cfe3c69d933d3db') in 0.003927 seconds
+  Import took 0.008093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011045 seconds.
+  path: Assets/MissileGame/BlendShape/BlendShape.cs
+  artifactKey: Guid(19ae3a85db0ac034faff40fc70fcab19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/BlendShape/BlendShape.cs using Guid(19ae3a85db0ac034faff40fc70fcab19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ed3b01dbe5447d3658eeffd535f631') in 0.004601 seconds
+  Import took 0.008807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022692 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r6.png
+  artifactKey: Guid(dbf9d8f8c503c164d8fb2d8c484a8b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r6.png using Guid(dbf9d8f8c503c164d8fb2d8c484a8b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68acac58d4dd40290bed68d765e71876') in 0.019678 seconds
+  Import took 0.024002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009599 seconds.
+  path: Assets/Scripts/RL.cs
+  artifactKey: Guid(a6e0e15d469c35e41b6850dd0f2af465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RL.cs using Guid(a6e0e15d469c35e41b6850dd0f2af465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7c695aabcb3254ae1e3fc661166677') in 0.053708 seconds
+  Import took 0.057961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019432 seconds.
+  path: Assets/MissileGame/TANKS/Bullet_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(51604c6782da268448ad20f64c45cf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/TANKS/Bullet_lambert1_MetallicSmoothness.png using Guid(51604c6782da268448ad20f64c45cf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1432ec3faa1d8d1fcae8823d438db514') in 0.020397 seconds
+  Import took 0.025125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041686 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f623c0e86c1083cde4224052f2554477') in 0.004386 seconds
+  Import took 0.008737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004471 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f829a9b05c319e5082fdced11e3304fe') in 0.004164 seconds
+  Import took 0.008284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004403 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grenade.mat
+  artifactKey: Guid(4c460122f06154244961f7f1d8ec76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grenade.mat using Guid(4c460122f06154244961f7f1d8ec76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45fab6a364d8eb9aed258c2050109c0') in 0.008290 seconds
+  Import took 0.012554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004686 seconds.
+  path: Assets/Media/Shaders/WaterShader/FlatKit/Demos/[Water] Ocean Islands/Ocean Islands Scene - Materials/OceanScene-Water-Preset 1.mat
+  artifactKey: Guid(1bba45b26d66044d98f884189784b0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/WaterShader/FlatKit/Demos/[Water] Ocean Islands/Ocean Islands Scene - Materials/OceanScene-Water-Preset 1.mat using Guid(1bba45b26d66044d98f884189784b0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f218851c76bd0c398e6e93a6c5a92c2b') in 0.017343 seconds
+  Import took 0.021612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074480 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/MissileV5 (1)/BlendMissile_V5_Butt_Normal.png
+  artifactKey: Guid(d5c9147e53c82c34a91be34f4a5f5f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/MissileV5 (1)/BlendMissile_V5_Butt_Normal.png using Guid(d5c9147e53c82c34a91be34f4a5f5f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c02e0bdda16001cec8f1826709638d5') in 0.041703 seconds
+  Import took 0.045920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004541 seconds.
+  path: Assets/Plugins/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6416eab2d7116cadbac3038de2914f6c') in 0.004096 seconds
+  Import took 0.008305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007235 seconds.
+  path: Assets/Scripts/camcc.cs
+  artifactKey: Guid(61bfe902b170d1549994c737d36424ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/camcc.cs using Guid(61bfe902b170d1549994c737d36424ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c818b6dce657e6aa769cb925b8b23aa') in 0.004105 seconds
+  Import took 0.008493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004359 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-StrawberrySeeds.mat
+  artifactKey: Guid(12634e13e0ea040f18e3c0ef503c889e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-StrawberrySeeds.mat using Guid(12634e13e0ea040f18e3c0ef503c889e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474d142d9436ccfb3a88974366695d16') in 0.008480 seconds
+  Import took 0.012683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030496 seconds.
+  path: Assets/MissileGame/Assets/PowerDown/PowerUp_lambert1_Normal.png
+  artifactKey: Guid(2457322ac82ccc54296adc86fc2695cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/PowerDown/PowerUp_lambert1_Normal.png using Guid(2457322ac82ccc54296adc86fc2695cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53591a0487c42c20677e6dbae931e454') in 0.052846 seconds
+  Import took 0.057085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018123 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/BSMissileMat/BlendMissile_V5_Base_Normal.png
+  artifactKey: Guid(431cc460eb1520544a423786f7d72a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/BSMissileMat/BlendMissile_V5_Base_Normal.png using Guid(431cc460eb1520544a423786f7d72a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a224dc0962eb2af8f1ecae9167091bd5') in 0.044924 seconds
+  Import took 0.049181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004672 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat
+  artifactKey: Guid(ed9cc41002c2f418a894e61cf88f73f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat using Guid(ed9cc41002c2f418a894e61cf88f73f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054a4d316684bbb2b88fe85251ff4bf4') in 0.004237 seconds
+  Import took 0.008413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079884 seconds.
+  path: Assets/MissileGame/Assets/Tank/TankV2.0_Rest_Normal.png
+  artifactKey: Guid(3f63a4b9eb071ec41aebfe42e0d8de2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Tank/TankV2.0_Rest_Normal.png using Guid(3f63a4b9eb071ec41aebfe42e0d8de2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca912534d94af7e6f1314ecc4269e19a') in 0.054638 seconds
+  Import took 0.058972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038516 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7109e00e3d85f81e4dab55ec6c143a8e') in 0.004917 seconds
+  Import took 0.009526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004926 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fbe6e49b140e96265a0d184dfe7eee') in 0.004958 seconds
+  Import took 0.009703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009250 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase
+  artifactKey: Guid(ad08edba2c09d4648945c064537d13e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase using Guid(ad08edba2c09d4648945c064537d13e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320a38f1dd955628118a699ba79d6eaa') in 0.004378 seconds
+  Import took 0.008730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021416 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/MissileV5 (1)/BlendMissile_V5_Rest_Normal.png
+  artifactKey: Guid(b74fad4d68086034bab4d463f8a72eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/MissileV5 (1)/BlendMissile_V5_Rest_Normal.png using Guid(b74fad4d68086034bab4d463f8a72eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb005d61191c110110956968688e6da') in 0.041573 seconds
+  Import took 0.045820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074058 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e4f557ef175ef69800ec6fc638b72c') in 0.004378 seconds
+  Import took 0.008566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014750 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r1.png
+  artifactKey: Guid(f84301519a6c5d74e8073f8f69c16f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r1.png using Guid(f84301519a6c5d74e8073f8f69c16f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879fff6dad4e03a87fcfecc18701e04d') in 0.015308 seconds
+  Import took 0.019687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026736 seconds.
+  path: Assets/Plugins/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68c0e723a98b54c9c25dcb8687256c8') in 0.004271 seconds
+  Import took 0.008456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024005 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/roc/b7.png
+  artifactKey: Guid(6785d5afcbfa0f241a3bd8fb410e57d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/roc/b7.png using Guid(6785d5afcbfa0f241a3bd8fb410e57d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b68a45e37247dfad5d87129e1780f80') in 0.010140 seconds
+  Import took 0.014402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004443 seconds.
+  path: Assets/Plugins/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554910bc92d61a21ca5f56df941b60f8') in 0.004187 seconds
+  Import took 0.008440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035445 seconds.
+  path: Assets/MissileGame/Jet/MissileHolder_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(0e2dda0f0891f9f4487441c53bedcb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Jet/MissileHolder_lambert1_MetallicSmoothness.png using Guid(0e2dda0f0891f9f4487441c53bedcb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623c5b70b20f84dde181ffa06b5d268b') in 0.017737 seconds
+  Import took 0.022006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081979 seconds.
+  path: Assets/MissileGame/Assets/Tank/TankV2.0_Rest_AlbedoTransparency.png
+  artifactKey: Guid(5968497159ec5d3428bbfcdeee4cc07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/Tank/TankV2.0_Rest_AlbedoTransparency.png using Guid(5968497159ec5d3428bbfcdeee4cc07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6155044989916fd68a91839651e32cde') in 0.048686 seconds
+  Import took 0.052970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030232 seconds.
+  path: Assets/Media/Shaders
+  artifactKey: Guid(df119eadedbea014fa8e5be61e2b6291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders using Guid(df119eadedbea014fa8e5be61e2b6291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df7b2681ecf5f57eea528665341869a') in 0.003838 seconds
+  Import took 0.008037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068397 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r5.png
+  artifactKey: Guid(f190e0f0b0de1314bb25a270f8c8f2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/rocket/r5.png using Guid(f190e0f0b0de1314bb25a270f8c8f2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c146162d99f0257ea09aba71a2075fc') in 0.019812 seconds
+  Import took 0.024193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004456 seconds.
+  path: Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b741ddd6980706355f9e5fe6bc56c8') in 0.004630 seconds
+  Import took 0.008862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007516 seconds.
+  path: Assets/Scripts/MM.cs
+  artifactKey: Guid(9a42302c7c3df4047bf0d7dbd478e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MM.cs using Guid(9a42302c7c3df4047bf0d7dbd478e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9c3894de7eac146df33bb6bca3a515') in 0.003948 seconds
+  Import took 0.008069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017752 seconds.
+  path: Assets/MissileGame/TANKS/Bullet_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(3dfcdaa4961d6ad41bcb86685186879f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/TANKS/Bullet_lambert1_AlbedoTransparency.png using Guid(3dfcdaa4961d6ad41bcb86685186879f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e919914e0f4d3ca976af07008b8e20c') in 0.017438 seconds
+  Import took 0.021707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044937 seconds.
+  path: Assets/MissileGame/Assets/BSMissile/newtext/MissileV5/BlendMissile_V5_Rest_Normal.png
+  artifactKey: Guid(0fea538e23866b74fa7455dea8f06cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Assets/BSMissile/newtext/MissileV5/BlendMissile_V5_Rest_Normal.png using Guid(0fea538e23866b74fa7455dea8f06cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe06d4e572defaf2aa252e7d3398f34') in 0.041625 seconds
+  Import took 0.045854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043086 seconds.
+  path: Assets/MissileGame/Jet/MissileHolder_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(d8bc70f636e9c904cb910ac5771cff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Jet/MissileHolder_lambert1_AlbedoTransparency.png using Guid(d8bc70f636e9c904cb910ac5771cff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6a654ba77d7c98003227c2f0382f38') in 0.016000 seconds
+  Import took 0.020266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056542 seconds.
+  path: Assets/Media/Models&Sprites/Game/Others
+  artifactKey: Guid(61b2f1fb23c825f40a7cbbb28a65d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/Game/Others using Guid(61b2f1fb23c825f40a7cbbb28a65d27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b23ddf8bf5956605344af2b077adba4') in 0.003968 seconds
+  Import took 0.008084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064433 seconds.
+  path: Assets/Media/Models&Sprites/UI/LevelSlider/roc/b3.png
+  artifactKey: Guid(cc992261fab43d04e9580bb5a7c2cf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Models&Sprites/UI/LevelSlider/roc/b3.png using Guid(cc992261fab43d04e9580bb5a7c2cf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af804b722e900380a001ef019c886022') in 0.010510 seconds
+  Import took 0.015002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008041 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps
+  artifactKey: Guid(55a21bb419396d54884fdb31200156b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps using Guid(55a21bb419396d54884fdb31200156b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40d0c95158fde926d018c3e78702464') in 0.004275 seconds
+  Import took 0.008472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008041 seconds.
+  path: Assets/Plugins/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec5af937ed48b4265499df9113969b0') in 0.004039 seconds
+  Import took 0.008213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060031 seconds.
+  path: Assets/Scripts/Oscillator.cs
+  artifactKey: Guid(2b64c18432566654abfdecd96fa33972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Oscillator.cs using Guid(2b64c18432566654abfdecd96fa33972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12e28387f8bb0fc2c47c018c5fcad1d') in 0.003935 seconds
+  Import took 0.008070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013867 seconds.
+  path: Assets/Media/Shaders/[Water] Ocean Islands/Ocean Islands Scene - Materials/OceanScene-Water-Preset 2.mat
+  artifactKey: Guid(488b6686c84654d9490fa5f2c9d1d14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Water] Ocean Islands/Ocean Islands Scene - Materials/OceanScene-Water-Preset 2.mat using Guid(488b6686c84654d9490fa5f2c9d1d14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffea2fbd0549aca639041dba3c2cd9a2') in 0.009048 seconds
+  Import took 0.013327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044480 seconds.
+  path: Assets/Scripts/AntiMissile.cs
+  artifactKey: Guid(cd0d9c642326b53438c4edd48b17cbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AntiMissile.cs using Guid(cd0d9c642326b53438c4edd48b17cbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc15dabf82d40ca95fc916a294f2ce28') in 0.003866 seconds
+  Import took 0.007988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004248 seconds.
+  path: Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Vase.mat
+  artifactKey: Guid(c88d6fe94495d45cd8f3ea600296c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Media/Shaders/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Vase.mat using Guid(c88d6fe94495d45cd8f3ea600296c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf8353a0d3fba5d268c51428a0875db') in 0.008295 seconds
+  Import took 0.012545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031078 seconds.
+  path: Assets/MissileGame/Jet/MissileHolder_Opner_MetallicSmoothness.png
+  artifactKey: Guid(de7edd0a8d0e2514189fe26abc28cacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MissileGame/Jet/MissileHolder_Opner_MetallicSmoothness.png using Guid(de7edd0a8d0e2514189fe26abc28cacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d2f465daefd0faea9bf9343dd73426') in 0.017253 seconds
+  Import took 0.021541 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

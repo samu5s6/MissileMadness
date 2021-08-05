@@ -29,18 +29,18 @@ public class CamChange : MonoBehaviour
             // cam2.SetActive(true);
             //cc.camStop();
             //cam1.SetActive(false);
-           // cam3.SetActive(true);
+            // cam3.SetActive(true);
             Invoke("cam", 0.1f);
         }
     }
     void cam()
     {
-       // cam2.SetActive(false);
+        cam2.SetActive(false);
         cam1.SetActive(false);
         cam3.SetActive(true);
     }
-   
-        
+
+
 
 
 }
