@@ -14,10 +14,10 @@ public class LevelGenerator : MonoBehaviour
     {
         Vector3 playerPosition = player.transform.position;
         Vector3 enemyTankPosition = enemy.transform.position;
-
+           
         float step = 1f / (numPoints + 1);
         for (lerpValue = step; lerpValue < 1f; lerpValue = lerpValue + step)
-        {
+        { 
             Vector3 v = Vector3.Lerp(playerPosition, enemyTankPosition, lerpValue);
 
             Vector3 forwardDirection = enemy.transform.position - player.transform.position;
